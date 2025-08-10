@@ -1,0 +1,489 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>alice maitre</title>
+<style type="text/css">
+.retour {	color: #1B40FF;
+}
+.gris {
+	color: #333;
+}
+.gris {
+	color: #F00;
+}
+.gris {
+	color: #C6F;
+}
+.gris {
+	color: #4C4C4C;
+}
+.gris {
+	color: #666;
+}
+.retour {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.helvetica {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.gris {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.fleche {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-large;
+	color: #03F;
+	text-decoration: none;
+	text-align: right;
+}
+.inv {
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+
+<script type="text/javascript">
+
+	
+
+	jQuery(function(){
+
+				jQuery.fn.getTitle = function() {
+			var arr = jQuery("a.fancybox");
+			jQuery.each(arr, function() {
+				var title = jQuery(this).children("img").attr("title");
+				jQuery(this).attr('title',title);
+			})
+		}
+
+		// Supported file extensions
+		var thumbnails = 'a:has(img)[href$=".bmp"],a:has(img)[href$=".gif"],a:has(img)[href$=".jpg"],a:has(img)[href$=".jpeg"],a:has(img)[href$=".png"],a:has(img)[href$=".BMP"],a:has(img)[href$=".GIF"],a:has(img)[href$=".JPG"],a:has(img)[href$=".JPEG"],a:has(img)[href$=".PNG"]';
+
+	
+		jQuery(thumbnails).addClass("fancybox").attr("rel","fancybox").getTitle();
+
+			jQuery("a.fancybox").fancybox({
+			'imageScale': true,
+			'padding': 10,
+			'zoomOpacity': true,
+			'zoomSpeedIn': 500,
+			'zoomSpeedOut': 500,
+			'zoomSpeedChange': 300,
+			'overlayShow': true,
+			'overlayColor': "#000000",
+			'overlayOpacity': 0.8,
+			'enableEscapeButton': true,
+			'showCloseButton': true,
+			'hideOnOverlayClick': true,
+			'hideOnContentClick': false,
+			'frameWidth':  560,
+			'frameHeight':  340,
+			'callbackOnStart': null,
+			'callbackOnShow': null,
+			'callbackOnClose': null,
+			'centerOnScroll': true
+		});
+
+})
+
+</script>
+<!-- END Fancybox for WordPress -->
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+function prepareTargetBlank() {
+	var className = 'wpsi-blank';
+	var as = document.getElementsByTagName('a');
+	for(i=0;i<as.length;i++) {
+		var a = as[i];
+		r=new RegExp("(^| )"+className+"($| )");
+		if(r.test(a.className)) {
+			a.onclick = function() {
+				window.open(this.href);
+				return false;
+			}
+		}
+	}
+}
+window.onload = prepareTargetBlank;
+//--><!]]>
+</script>
+		
+				<script type="text/javascript" src="/js/jquery.scrollTo-min.js"></script> 
+		<script type="text/javascript" src="/js/jquery.serialScroll-min.js"></script>
+		<script src="/js/article.js?v=2" type="text/javascript"></script>
+				
+	
+		<style type="text/css">
+		@-webkit-keyframes pulse {
+
+0% {
+
+   #FFF;
+
+   opacity: 0;
+
+   -webkit-transform: perspective(600px) rotateY(-3deg);
+
+ }
+
+25% {
+
+   color: #000;
+
+   opacity: 0.53;
+   -webkit-transform: perspective(550px) rotateY(10deg);
+
+ }
+
+50% {
+
+   #666;
+
+   opacity: 0.8;
+
+   -webkit-transform: perspective(550px) rotateY(-10deg);
+
+ }
+
+75% { 
+
+	#CCC;
+
+	opacity:.4;
+
+	-webkit-transform: perspective(550px) rotateY(0deg);
+
+ }
+
+100% {
+
+   #FFF;
+
+   opacity: 0;
+
+   -webkit-transform: perspective(600px) rotateY(-3deg);
+
+ }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.entry {
+
+padding-top: 20px;
+
+}
+
+
+
+#audio {
+
+width: 400px;
+
+margin: 40px auto 0;
+
+box-shadow: 10px 10px 10px #666;
+
+-moz-box-shadow: 10px 10px 10px #666;
+
+-webkit-box-shadow: 10px 10px 10px #666;
+
+}
+
+
+
+pre {
+
+font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+
+font-size: 30px;
+
+line-height: 34px;
+
+margin: 20px auto 0;
+
+text-shadow: 1px 1px 0 #FFF;
+
+ -moz-transform: matrix(1, -0.2, 0, 1, 0, 0);
+
+       -o-transform:matrix(1, -0.2, 0, 1, 0, 0);
+
+-moz-color: #716e7b;
+
+-moz-opacity: .65;
+
+-o-color: #716e7b;
+
+-o-opacity: .65;
+
+}
+
+
+
+.pulse {
+
+       -webkit-animation-name: pulse;
+
+       -webkit-animation-duration: 8s;
+
+       -webkit-animation-iteration-count: infinite;
+
+       -webkit-animation-timing-function: ease-in-out;
+
+      }	.oui {
+	font-family: Arial, Helvetica, sans-serif;
+}
+        .pulse .oui {
+	font-size: 36px;
+}
+        .pulse .oui {
+	text-align: center;
+}
+        body {
+	background-image: url(Images/wrong/friends/customer-service.jpg);
+	background-repeat: repeat;
+}
+        </style>
+	
+
+	<!-- Google Analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-11890152-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</head>
+
+<body>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div class="pulse">
+<pre class="oui">The artwork for my digital copies 
+are not loading... Please help!
+
+I can see <img src="Images/wrong/friends/ls.jpg" alt="" width="88" height="91" /> art in Get info 
+but can't blow it large
+
+Artwork will not upload and stay uploaded
+
+No<img src="Images/wrong/friends/live-customer-support.jpg" width="86" height="67" /> artwork on Iphone
+
+Is there a way to change <img src="Images/wrong/friends/headerimage.png" alt="" width="78" height="81" />
+artwork in the genres column?
+
+Recovering<img src="Images/wrong/friends/virgin-media-contact-number.png" alt="" width="150" height="107" /> missing artwork
+
+I'm having trouble getting the codes 
+from the friends I've chosen
+
+There are no replies
+
+How do I change my birthday 
+and choose who I share it with?
+
+Helpful (0)<img src="Images/wrong/friends/Solucoes-para-telemarketing-ajudam-centrais-receptivas-a-ampliar-carteira-televendas-cobranca.jpg" alt="" width="110" height="93" />
+
+Can I message members of a group 
+if they are not my friends?
+
+What happens when 
+I'm added to a new group?
+
+
+Wtf <img src="Images/wrong/friends/Customer-service-woman-on-headset-gives-OK-1024x770.jpg" alt="" width="134" height="100" /> does locked mean???
+
+How do I add a frame to a photo?
+
+I'd like ALL artists to<img src="Images/wrong/friends/chat.jpg" alt="" width="108" height="100" />
+ show up under &quot;Artist&quot;
+
+Artwork will not update 
+and stay updated
+
+A vast majority of artist artworks 
+stubbornly remain blank
+
+Why <img src="Images/wrong/friends/lady-r.png" alt="" width="76" height="91" />is artist 
+listed as unknown?
+
+The artwork from my digital copies 
+are not loading. Please help!
+
+How you get correct artwork when 
+incorrect artwork is already linked?
+
+Is there a way <img src="Images/wrong/friends/contact.png" width="99" height="97" />to change 
+artwork in the genres column?
+
+No artwork on Iphone<img src="Images/wrong/friends/slide_1a.png" alt="" width="226" height="93" />
+
+How do I add my own<img src="Images/wrong/friends/voip20provider.png" width="89" height="95" /> 
+artwork to Itunes 11?
+
+
+<img src="Images/wrong/friends/virgin-media-contact-number.png" alt="" width="150" height="107" />
+
+
+<img src="Images/wrong/friends/ls.jpg" alt="" width="88" height="91" />
+
+</pre>
+<p align="center"><span class="oui"><img src="Images/wrong/friends/headerimage.png" alt="" width="78" height="81" /></span></p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center"><span class="oui"><img src="Images/wrong/friends/woman.png" alt="" width="106" height="81" /></span></p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center"><span class="oui"><img src="Images/wrong/friends/Solucoes-para-telemarketing-ajudam-centrais-receptivas-a-ampliar-carteira-televendas-cobranca.jpg" alt="" width="110" height="93" /></span></p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center"><span class="oui"><img src="Images/wrong/friends/slide_1a.png" alt="" width="226" height="93" /></span></p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center"><span class="oui"><img src="Images/wrong/friends/chat.jpg" alt="" width="108" height="100" /></span></p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center"><span class="oui"><img src="Images/wrong/friends/lady-r.png" alt="" width="76" height="91" /></span></p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center"><span class="oui"><img src="Images/wrong/friends/Customer-service-woman-on-headset-gives-OK-1024x770.jpg" alt="" width="134" height="100" /></span></p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center"><span class="oui"><img src="Images/wrong/friends/contact.png" alt="" width="99" height="97" /></span></p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center"><span class="oui"><img src="Images/wrong/friends/voip20provider.png" alt="" width="89" height="95" /></span></p>
+<p align="center">&nbsp;</p>
+<p align="center"><img src="Images/wrong/friends/callus_icon.png" width="110" height="110" /></p>
+<p align="center">&nbsp;</p>
+<p align="center"><img src="Images/wrong/friends/phone_service_call_centre_girl.jpg" width="178" height="179" /></p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center"><img src="Images/wrong/friends/call-us.png" width="129" height="155" /></p>
+<p align="center">&nbsp;</p>
+<p align="center"><img src="Images/wrong/friends/2013102810154198.png" width="271" height="153" /></p>
+<p align="center">&nbsp;</p>
+<p align="center"><img src="Images/wrong/friends/shiny-cleaning-support.jpg" width="163" height="166" /></p>
+<p align="center">&nbsp;</p>
+<p align="center"><img src="Images/wrong/friends/images.jpg" width="131" height="196" /></p>
+<p align="center">&nbsp;</p>
+<p align="center"><img src="Images/wrong/friends/1.png" width="302" height="156" /></p>
+<p align="center">&nbsp;</p>
+<p align="center"><img src="Images/wrong/friends/Call-us.jpg" width="357" height="202" /></p>
+<p align="center">&nbsp;</p>
+<p align="center"><img src="Images/wrong/friends/contact copie.png" width="190" height="184" /></p>
+<p align="center">&nbsp;</p>
+<p align="center"><img src="Images/wrong/friends/contactus.jpg" width="250" height="209" alt=" " /></p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center"><img src="Images/wrong/friends/customer-service.jpg" width="1014" height="1119" /></p>
+<p>&nbsp;</p>
+<p align="center"><span class="oui">The artwork for my digital </span></p>
+<p align="center"><span class="oui">copies </span><span class="oui">are not loading... </span></p>
+<p align="center"><span class="oui">Please help! </span></p>
+<p align="center">&nbsp;</p>
+<p align="center"><img src="Images/wrong/friends/customer-service.jpg" alt="" width="1014" height="1119" /></p>
+<p align="center"><span class="oui">Artwork will not upload </span></p>
+<p align="center"><span class="oui">and stay uploaded</span></p>
+<p align="center"><img src="Images/wrong/friends/customer-service.jpg" alt="" width="1014" height="1119" /></p>
+<p align="center"><span class="oui">I'd like ALL artists to</span></p>
+<p align="center"><span class="oui"> show up under &quot;Artist&quot;</span></p>
+<p align="center"><img src="Images/wrong/friends/customer-service.jpg" alt="" width="1014" height="1119" /></p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<pre class="oui"><img src="Images/wrong/friends/virgin-media-contact-number.png" alt="" width="150" height="107" align="left" />
+
+
+
+
+
+<img src="Images/wrong/friends/ls.jpg" alt="" width="88" height="91" align="right" />
+
+</pre>
+<p align="center"><span class="oui"><img src="Images/wrong/friends/headerimage.png" alt="" width="78" height="81" /></span></p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center"><span class="oui"><img src="Images/wrong/friends/woman.png" alt="" width="106" height="81" align="left" /></span></p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center"><span class="oui"><img src="Images/wrong/friends/Solucoes-para-telemarketing-ajudam-centrais-receptivas-a-ampliar-carteira-televendas-cobranca.jpg" alt="" width="110" height="93" align="right" /></span></p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center"><span class="oui"><img src="Images/wrong/friends/slide_1a.png" alt="" width="226" height="93" /></span></p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center"><span class="oui"><img src="Images/wrong/friends/chat.jpg" alt="" width="108" height="100" align="left" /></span></p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center"><span class="oui"><img src="Images/wrong/friends/lady-r.png" alt="" width="76" height="91" align="right" /></span></p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center"><span class="oui"><img src="Images/wrong/friends/Customer-service-woman-on-headset-gives-OK-1024x770.jpg" alt="" width="134" height="100" /></span></p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center"><span class="oui"><img src="Images/wrong/friends/contact.png" alt="" width="99" height="97" align="left" /></span></p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center"><span class="oui"><img src="Images/wrong/friends/voip20provider.png" alt="" width="89" height="95" align="right" /></span></p>
+<p align="center">&nbsp;</p>
+<p align="center"><img src="Images/wrong/friends/callus_icon.png" width="110" height="110" /></p>
+<p align="center">&nbsp;</p>
+<p align="center"><img src="Images/wrong/friends/phone_service_call_centre_girl.jpg" width="178" height="179" align="left" /></p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center"><img src="Images/wrong/friends/call-us.png" width="129" height="155" align="right" /></p>
+<p align="center">&nbsp;</p>
+<p align="center"><img src="Images/wrong/friends/2013102810154198.png" width="271" height="153" /></p>
+<p align="center">No artwork on iPhone...</p>
+<p align="center">Please help</p>
+<p align="center"><img src="Images/wrong/friends/shiny-cleaning-support.jpg" width="163" height="166" align="left" /></p>
+<p align="center">&nbsp;</p>
+<p align="center"><img src="Images/wrong/friends/images.jpg" width="131" height="196" align="right" /></p>
+<p align="center">&nbsp;</p>
+<p align="center"><img src="Images/wrong/friends/1.png" width="302" height="156" /></p>
+<p align="center">&nbsp;</p>
+<p align="center"><img src="Images/wrong/friends/Call-us.jpg" width="357" height="202" align="left" /></p>
+<p align="center">&nbsp;</p>
+<p align="center"><img src="Images/wrong/friends/contact copie.png" width="190" height="184" align="right" /></p>
+<p align="center">&nbsp;</p>
+<p align="center"><img src="Images/wrong/friends/contactus.jpg" width="250" height="209" alt=" " /></p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>
+<p align="center"><img src="Images/wrong/friends/customer-service.jpg" width="1014" height="1119" /></p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,303 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>alice maitre</title>
+<style type="text/css">
+.retour {	color: #1B40FF;
+}
+.gris {
+	color: #333;
+}
+.gris {
+	color: #F00;
+}
+.gris {
+	color: #C6F;
+}
+.gris {
+	color: #4C4C4C;
+}
+.gris {
+	color: #666;
+}
+.retour {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.helvetica {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.gris {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.fleche {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-large;
+	color: #03F;
+	text-decoration: none;
+	text-align: right;
+}
+.inv {
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+
+<script type="text/javascript">
+
+	
+
+	jQuery(function(){
+
+				jQuery.fn.getTitle = function() {
+			var arr = jQuery("a.fancybox");
+			jQuery.each(arr, function() {
+				var title = jQuery(this).children("img").attr("title");
+				jQuery(this).attr('title',title);
+			})
+		}
+
+		// Supported file extensions
+		var thumbnails = 'a:has(img)[href$=".bmp"],a:has(img)[href$=".gif"],a:has(img)[href$=".jpg"],a:has(img)[href$=".jpeg"],a:has(img)[href$=".png"],a:has(img)[href$=".BMP"],a:has(img)[href$=".GIF"],a:has(img)[href$=".JPG"],a:has(img)[href$=".JPEG"],a:has(img)[href$=".PNG"]';
+
+	
+		jQuery(thumbnails).addClass("fancybox").attr("rel","fancybox").getTitle();
+
+			jQuery("a.fancybox").fancybox({
+			'imageScale': true,
+			'padding': 10,
+			'zoomOpacity': true,
+			'zoomSpeedIn': 500,
+			'zoomSpeedOut': 500,
+			'zoomSpeedChange': 300,
+			'overlayShow': true,
+			'overlayColor': "#000000",
+			'overlayOpacity': 0.8,
+			'enableEscapeButton': true,
+			'showCloseButton': true,
+			'hideOnOverlayClick': true,
+			'hideOnContentClick': false,
+			'frameWidth':  560,
+			'frameHeight':  340,
+			'callbackOnStart': null,
+			'callbackOnShow': null,
+			'callbackOnClose': null,
+			'centerOnScroll': true
+		});
+
+})
+
+</script>
+<!-- END Fancybox for WordPress -->
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+function prepareTargetBlank() {
+	var className = 'wpsi-blank';
+	var as = document.getElementsByTagName('a');
+	for(i=0;i<as.length;i++) {
+		var a = as[i];
+		r=new RegExp("(^| )"+className+"($| )");
+		if(r.test(a.className)) {
+			a.onclick = function() {
+				window.open(this.href);
+				return false;
+			}
+		}
+	}
+}
+window.onload = prepareTargetBlank;
+//--><!]]>
+</script>
+		
+				<script type="text/javascript" src="/js/jquery.scrollTo-min.js"></script> 
+		<script type="text/javascript" src="/js/jquery.serialScroll-min.js"></script>
+		<script src="/js/article.js?v=2" type="text/javascript"></script>
+				
+	
+		<style type="text/css">
+		@-webkit-keyframes pulse {
+
+ 0% {
+
+   color:#000;
+
+   opacity: 0.3;
+
+   -webkit-transform: perspective(500px) rotateY(-10deg);
+
+ }
+
+ 25% {
+
+   color: blue;
+
+   opacity: 0.53;
+
+   -webkit-transform: perspective(350px) rotateY(30deg);
+
+ }
+
+ 50% {
+
+   color:#F00;
+
+   opacity: 0.8;
+
+   -webkit-transform: perspective(350px) rotateY(-30deg);
+
+ }
+
+ 75% { 
+
+	color:#F39;
+
+	opacity:.4;
+
+	-webkit-transform: perspective(350px) rotateY(0deg);
+
+ }
+
+ 100% {
+
+   color:#000;
+
+   opacity: .65;
+
+   -webkit-transform: perspective(500px) rotateY(-10deg);
+
+ }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.entry {
+
+padding-top: 20px;
+
+}
+
+
+
+#audio {
+
+width: 400px;
+
+margin: 40px auto 0;
+
+box-shadow: 10px 10px 10px #666;
+
+-moz-box-shadow: 10px 10px 10px #666;
+
+-webkit-box-shadow: 10px 10px 10px #666;
+
+}
+
+
+
+pre {
+
+font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+
+font-size: 30px;
+
+line-height: 34px;
+
+margin: 20px auto 0;
+
+text-shadow: 1px 1px 0 #FFF;
+
+ -moz-transform: matrix(1, -0.2, 0, 1, 0, 0);
+
+       -o-transform:matrix(1, -0.2, 0, 1, 0, 0);
+
+-moz-color: #716e7b;
+
+-moz-opacity: .65;
+
+-o-color: #716e7b;
+
+-o-opacity: .65;
+
+}
+
+
+
+.pulse {
+
+       -webkit-animation-name: pulse;
+
+       -webkit-animation-duration: 4s;
+
+       -webkit-animation-iteration-count: infinite;
+
+       -webkit-animation-timing-function: ease-in-out;
+
+      }	.oui {
+	font-family: Arial, Helvetica, sans-serif;
+}
+        .pulse .oui {
+	font-size: 36px;
+}
+        .pulse .oui {
+	text-align: center;
+}
+        </style>
+	
+
+	<!-- Google Analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-11890152-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</head>
+
+<body>
+<div class="pulse">
+<pre class="oui">
+<img src="Images/bonus/1280292158870-dumpfm-timb-doves.wall.right.gif" width="137" height="400" />
+
+
+Haydée,<br />
+Vous êtes la lueur d'ange
+
+qui allume une étoile 
+<br />Les choses les plus chers 
+
+que je connais sont ce que vous êtes <br />
+Certains, certaines, certains, certains, jour <br />
+Mes bras heureux vous tenir 
+
+
+<img src="Images/bonus/th_rose92.gif" alt="" width="50" height="50" /> <img src="Images/bonus/th_rose92.gif" alt="" width="50" height="50" />
+</pre>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>
+</body>
+</html>

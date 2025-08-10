@@ -1,0 +1,414 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>alice maitre</title>
+<style type="text/css">
+.retour {	color: #1B40FF;
+}
+.gris {
+	color: #333;
+}
+.gris {
+	color: #F00;
+}
+.gris {
+	color: #C6F;
+}
+.gris {
+	color: #4C4C4C;
+}
+.gris {
+	color: #666;
+}
+.retour {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.helvetica {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.gris {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.fleche {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-large;
+	color: #03F;
+	text-decoration: none;
+	text-align: right;
+}
+.inv {
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+
+<script type="text/javascript">
+
+	
+
+	jQuery(function(){
+
+				jQuery.fn.getTitle = function() {
+			var arr = jQuery("a.fancybox");
+			jQuery.each(arr, function() {
+				var title = jQuery(this).children("img").attr("title");
+				jQuery(this).attr('title',title);
+			})
+		}
+
+		// Supported file extensions
+		var thumbnails = 'a:has(img)[href$=".bmp"],a:has(img)[href$=".gif"],a:has(img)[href$=".jpg"],a:has(img)[href$=".jpeg"],a:has(img)[href$=".png"],a:has(img)[href$=".BMP"],a:has(img)[href$=".GIF"],a:has(img)[href$=".JPG"],a:has(img)[href$=".JPEG"],a:has(img)[href$=".PNG"]';
+
+	
+		jQuery(thumbnails).addClass("fancybox").attr("rel","fancybox").getTitle();
+
+			jQuery("a.fancybox").fancybox({
+			'imageScale': true,
+			'padding': 10,
+			'zoomOpacity': true,
+			'zoomSpeedIn': 500,
+			'zoomSpeedOut': 500,
+			'zoomSpeedChange': 300,
+			'overlayShow': true,
+			'overlayColor': "#000000",
+			'overlayOpacity': 0.8,
+			'enableEscapeButton': true,
+			'showCloseButton': true,
+			'hideOnOverlayClick': true,
+			'hideOnContentClick': false,
+			'frameWidth':  560,
+			'frameHeight':  340,
+			'callbackOnStart': null,
+			'callbackOnShow': null,
+			'callbackOnClose': null,
+			'centerOnScroll': true
+		});
+
+})
+
+</script>
+<!-- END Fancybox for WordPress -->
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+function prepareTargetBlank() {
+	var className = 'wpsi-blank';
+	var as = document.getElementsByTagName('a');
+	for(i=0;i<as.length;i++) {
+		var a = as[i];
+		r=new RegExp("(^| )"+className+"($| )");
+		if(r.test(a.className)) {
+			a.onclick = function() {
+				window.open(this.href);
+				return false;
+			}
+		}
+	}
+}
+window.onload = prepareTargetBlank;
+//--><!]]>
+</script>
+		
+				<script type="text/javascript" src="/js/jquery.scrollTo-min.js"></script> 
+		<script type="text/javascript" src="/js/jquery.serialScroll-min.js"></script>
+		<script src="/js/article.js?v=2" type="text/javascript"></script>
+				
+	
+		<style type="text/css">
+		@-webkit-keyframes pulse {
+
+0% {
+
+   #FFF;
+
+   opacity: 0;
+
+   -webkit-transform: perspective(600px) rotateY(-10deg);
+
+ }
+
+25% {
+
+   color: #000;
+
+   opacity: 0.53;
+   -webkit-transform: perspective(550px) rotateY(30deg);
+
+ }
+
+50% {
+
+   #666;
+
+   opacity: 0.8;
+
+   -webkit-transform: perspective(550px) rotateY(-30deg);
+
+ }
+
+75% { 
+
+	#CCC;
+
+	opacity:.4;
+
+	-webkit-transform: perspective(550px) rotateY(0deg);
+
+ }
+
+100% {
+
+   #FFF;
+
+   opacity: 0;
+
+   -webkit-transform: perspective(600px) rotateY(-10deg);
+
+ }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.entry {
+
+padding-top: 20px;
+
+}
+
+
+
+#audio {
+
+width: 400px;
+
+margin: 40px auto 0;
+
+box-shadow: 10px 10px 10px #666;
+
+-moz-box-shadow: 10px 10px 10px #666;
+
+-webkit-box-shadow: 10px 10px 10px #666;
+
+}
+
+
+
+pre {
+
+font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+
+font-size: 30px;
+
+line-height: 34px;
+
+margin: 20px auto 0;
+
+text-shadow: 1px 1px 0 #FFF;
+
+ -moz-transform: matrix(1, -0.2, 0, 1, 0, 0);
+
+       -o-transform:matrix(1, -0.2, 0, 1, 0, 0);
+
+-moz-color: #716e7b;
+
+-moz-opacity: .65;
+
+-o-color: #716e7b;
+
+-o-opacity: .65;
+
+}
+
+
+
+.pulse {
+
+       -webkit-animation-name: pulse;
+
+       -webkit-animation-duration: 8s;
+
+       -webkit-animation-iteration-count: infinite;
+
+       -webkit-animation-timing-function: ease-in-out;
+
+      }	.oui {
+	font-family: Arial, Helvetica, sans-serif;
+}
+        .pulse .oui {
+	font-size: 36px;
+}
+        .pulse .oui {
+	text-align: center;
+}
+        </style>
+	
+
+	<!-- Google Analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-11890152-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</head>
+
+<body>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div class="pulse">
+<pre class="oui">By far worse is the hambuger lady,
+
+
+
+
+We must heal them for the qualified technicians,
+
+Worse, Alternating nights are automatic,
+
+She's lying there,
+
+Hamburger <img src="Images/wrong/preview-9.jpg" width="125" height="133" alt="cap" /> Lady Hamburger Lady She's dying,
+
+She is burned from the waist up,
+
+On her arm, Her ear is burned,
+
+Her eyelashes are<img src="Images/wrong/friends/ls.jpg" width="120" height="130" /> burned, She can't hold things up,
+
+And even with medical advances,
+
+There's no end in sight, For hamburger lady,
+
+<img src="Images/wrong/friends/live-customer-support.jpg" width="86" height="67" />She wants me to tell you of her claim mind,
+
+From which the double play laying,
+
+The proping chair, Leave her,<img src="Images/wrong/friends/headerimage.png" width="78" height="81" />
+
+She's<img src="Images/wrong/friends/woman.png" width="106" height="81" /> Burned from the waist down,
+
+Has to eat her life through tubes,
+
+Hamburger Lady
+
+Hamburger Lady She's okay if you change the tubes,
+
+Tubes<img src="Images/wrong/friends/Solucoes-para-telemarketing-ajudam-centrais-receptivas-a-ampliar-carteira-televendas-cobranca.jpg" width="110" height="93" /> in her legs, The tubes in her arms,<img src="Images/wrong/friends/slide_1a.png" width="226" height="93" />
+
+She's okay,
+
+Then it came<img src="Images/wrong/friends/chat.jpg" width="108" height="100" /> out and saw the burn net,
+
+Indeed in the account of killing,
+
+And it flashed on the carpet,
+
+And it flashed on the floor,<img src="Images/wrong/friends/lady-r.png" width="76" height="91" />
+
+The hamburger lady, She came to rest,
+
+Because of the burn she needs relief,
+
+From the medication, The qualified Technician,
+
+Hamburger Lady Hamburger Lady.
+
+
+
+
+
+<img src="Images/wrong/quotes/Capture d’écran 2017-09-11 à 18.03.45.png" width="332" height="45" />
+<img src="Images/wrong/friends/Solucoes-para-telemarketing-ajudam-centrais-receptivas-a-ampliar-carteira-televendas-cobranca.jpg" alt="" width="671" height="566" align="right" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</pre>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><img src="Images/wrong/quotes/Capture d’écran 2017-09-11 à 17.52.11.png" width="452" height="135" /></p>
+<p>&nbsp;</p>
+<p><img src="Images/wrong/friends/2013102810154198.png" width="852" height="484" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><img src="Images/wrong/quotes/Capture d’écran 2017-09-11 à 17.50.19.png" width="980" height="55" align="middle" /></p>
+<p>&nbsp;</p>
+<p><img src="Images/wrong/friends/lady-r.png" width="570" height="687" align="middle" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>
+</body>
+</html>
