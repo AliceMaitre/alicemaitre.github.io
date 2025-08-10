@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" >
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+		<title>Infobulle</title>
+		<meta http-equiv="author" content="Julien Theler" />
+		<link rel="stylesheet" href="infobulle.css" type="text/css">
+		<script type="text/javascript" src="infobulle.js"></script>
+		<style content="text/css">
+		</style>
+	</head>
+	<body>
+		<strong style="color: #3F3F3F; font-weight: normal; font-size: 80%; display: block; margin-bottom: 20px;">
+			<h1 style="margin: 0px; font-size: 130%; color: #000000;">Infobulle</h1>
+			<b>Auteur</b> : Julien Theler - <a href="http://www.twiip.ch">www.twiip.ch</a><br />
+			<b>Contact</b> : <a href="http://www.twiip.ch/contact/"><img src="/images/mail.jpg" style="margin-bottom: -2px; border: 0px;" /></a><br />
+			<b>Licence</b> : CC-by-nc <br />
+		</strong>
+		<a href="/">Retour à la liste des scripts</a>
+		
+		<fieldset><legend>1. Description</legend>
+			La fonction infobulle est une fonction javascript permettant d'afficher très simplement des informations à côté du curseur lors du survol d'un élément (liens, image, div,...).
+		</fieldset>
+
+		<fieldset><legend>2. Fichiers nécessaires</legend>
+			<strong>infobulle.js</strong> (<a href="?file=infobulle.js">télécharger</a>) : contient la fonction javascript infobulle<br />
+			<strong>infobulle.css</strong> (<a href="?file=infobulle.css">télécharger</a>) : contient la déclaration CSS du style appliqué à l'infobulle<br />
+		</fieldset>
+
+		<fieldset><legend>3. Configuration</legend>
+			Aucune configuration nécessaire.<br />
+			Vous pouvez modifier l'apparence des infobulles et de leur contenu dans le fichier css.
+		</fieldset>
+
+		<fieldset><legend>4. Utilisation</legend>
+			La fonction javascript doit être appelée ainsi sur un élément (ici un lien) :
+			<xmp><a onMouseOver="infobulle(this, 'texte à afficher');">Test</a></xmp>
+		</fieldset>
+
+		<fieldset><legend>5. Exemples</legend>
+			<a href="#" onMouseOver="infobulle(this, 'texte à afficher');">Test 1</a><br /><br />
+			<a href="#" onMouseOver="infobulle(this, 'Ceci est le contenu de la seconde infobulle de test');">Test 2</a><br /><br />
+			<a href="#" onMouseOver="infobulle(this, 'On peut aussi y mettre du <b>gras</b> ou autres balises html (img, br,...)');">Test 3</a><br /><br />
+			<a href="#" onMouseOver="infobulle(this, 'Infobulle avec image<center><img src=\'/scripts/ressources/illustrations/chapeau3D90.jpg\' /></center>');">Test 4</a>
+		</fieldset>
+	</body>
+</html>
